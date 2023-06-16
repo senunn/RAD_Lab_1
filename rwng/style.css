@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    animation-fill-mode: forwards;
+    background-image: url(mex.jpg);
+    background-size: 1920px 1024px;
+
+}
+
+h1{
+    color: crimson;
+    text-align: center; 
+    font-size: xx-large;
+}
+h5{
+    color: bisque;
+}
+
+
+
+
+table, th, td {
+    border: 3px solid;
+    font-size: x-large;
+    color: white;
+    padding: 5px;
+    animation-duration: 1s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+button{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    size: 100px;
+    padding: 20px;
+    color:azure;
+    border: 9%;
+    border-color: brown;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: grabbing;
+
+}
+
+div{
+    padding: 40px;
+}
